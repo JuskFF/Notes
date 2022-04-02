@@ -1,7 +1,7 @@
 # Unity4.6安装教程
 ---
 1. 首次运行安装好的Unity4.6会要求进行联网激活，由于服务器的问题，会导致出现图1的错误：
-![图1](Unity4.6安装/asset/1.jpg)
+![图1](https://github.com/JuskFF/Notes/blob/main/Unity4.6%E5%AE%89%E8%A3%85/asset/1.jpg)
 <center>图1</center>
 
 2. 运行![图2](asset/2.jpg)的激活工具进行激活(激活工具在asset目录下)。
