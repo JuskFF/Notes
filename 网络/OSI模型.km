@@ -1,0 +1,325 @@
+{
+    "root": {
+        "data": {
+            "id": "clftmq7532o0",
+            "created": 1657846765925,
+            "text": "OSI 模型 "
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "clftn4mtqg80",
+                    "created": 1657846797348,
+                    "text": "应用层",
+                    "priority": 7
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "clg1m7ytzwo0",
+                            "created": 1657869295120,
+                            "text": "简介"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clg36qwm65s0",
+                                    "created": 1657873724738,
+                                    "text": "提供用户服务"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "clg1m89imfs0",
+                            "created": 1657869295766,
+                            "text": "例子"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clg36xrqjnk0",
+                                    "created": 1657873739680,
+                                    "text": "HTTP、DNS、DHCP"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "clftn4zw1c80",
+                    "created": 1657846798138,
+                    "text": "表示层",
+                    "priority": 6
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "clg1m6mb0tc0",
+                            "created": 1657869292186,
+                            "text": "简介"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clgvc986d7c0",
+                                    "created": 1657953147517,
+                                    "text": "信息的数据编码、格式、加密、解密"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "clg1m7a4oz40",
+                            "created": 1657869293626,
+                            "text": "例子"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clgvcpu7tko0",
+                                    "created": 1657953183679,
+                                    "text": "PNG、JPEG、ASCII"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "clftn74tzts0",
+                    "created": 1657846802791,
+                    "text": "会话层",
+                    "priority": 5
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "clg1m5ufvug0",
+                            "created": 1657869290501,
+                            "text": "简介"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clgvdea9vso0",
+                                    "created": 1657953236892,
+                                    "text": "进程到进程的会话、通信"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "clg1m6a5vdc0",
+                            "created": 1657869291451,
+                            "text": "例子"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clgvdwlcl5c0",
+                                    "created": 1657953276744,
+                                    "text": "协议通信端口号"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "clftn7tyzxs0",
+                    "created": 1657846804311,
+                    "text": "传输层",
+                    "priority": 4
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "clg1m58cd940",
+                            "created": 1657869289165,
+                            "text": "简介"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clg308gnd480",
+                                    "created": 1657873214405,
+                                    "text": "主机到主机的连接、通信"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "clg1m5ixvuw0",
+                            "created": 1657869289805,
+                            "text": "例子"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clg30oqx5pc0",
+                                    "created": 1657873249855,
+                                    "text": "TCP、UDP"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "clftn8vkahs0",
+                    "created": 1657846806584,
+                    "text": "网络层",
+                    "priority": 3,
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "clg1m4hqcy80",
+                            "created": 1657869287556,
+                            "text": "简介"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clg2sthq0480",
+                                    "created": 1657872633269,
+                                    "text": "网络到网络的通信"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "clg1m4w0qtk0",
+                            "created": 1657869288420,
+                            "text": "例子"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clg2tbbjyvc0",
+                                    "created": 1657872672079,
+                                    "text": "ip协议、编址、路径学习、路由转发"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "clftn9a0ops0",
+                    "created": 1657846807458,
+                    "text": "数据链路层",
+                    "priority": 2,
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "clg1m3sguo00",
+                            "created": 1657869286028,
+                            "text": "简介"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clg2myxftfc0",
+                                    "created": 1657872174919,
+                                    "text": "实现物理层的通信"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "clg1m45p1rs0",
+                            "created": 1657869286828,
+                            "text": "例子"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clg2o1nj9t40",
+                                    "created": 1657872259214,
+                                    "text": "802.2/802.3、PPP"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "clftn9mguyw0",
+                    "created": 1657846808211,
+                    "text": "物理层",
+                    "priority": 1,
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "clg1g1rtxfc0",
+                            "created": 1657868811451,
+                            "text": "简介"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clg1f2dr7q00",
+                                    "created": 1657868734412,
+                                    "text": "比特流的接收与发送、传输介质、物理接口"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "clg1g50qnew0",
+                            "created": 1657868818520,
+                            "text": "例子"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clg1i5ba5gw0",
+                                    "created": 1657868975886,
+                                    "text": "RJ45、RS232、V.35等"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-red",
+    "version": "1.4.43"
+}
