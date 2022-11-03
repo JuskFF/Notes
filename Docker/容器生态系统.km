@@ -1,0 +1,531 @@
+{
+    "root": {
+        "data": {
+            "id": "cl1fkeicdts0",
+            "created": 1656385248821,
+            "text": "容器生态系统"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cl1fkw7d3v40",
+                    "created": 1656385287339,
+                    "text": "容器核心技术",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cl1kkdkm9q80",
+                            "created": 1656399352331,
+                            "text": "容器规范"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co1frwtb9cw0",
+                                    "created": 1667354312535,
+                                    "text": "OCI组织 (Open Container Initiative)"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "co1g2rmxv4w0",
+                                            "created": 1667355163272,
+                                            "text": "runtime spec"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "co1g2rxm9hk0",
+                                            "created": 1667355163918,
+                                            "text": "image format spec"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cl1kkee144w0",
+                            "created": 1656399354109,
+                            "text": "容器 runtime",
+                            "note": "runtime是容器真正运行的地方，为容器提供运行环境"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cl1m4f525wo0",
+                                    "created": 1656403744137,
+                                    "text": "lxc"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cl1m4g6qwgo0",
+                                    "created": 1656403746416,
+                                    "text": "runc"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cl1m4gjlje80",
+                                    "created": 1656403747193,
+                                    "text": "rkt"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cl1kkf5nn9k0",
+                            "created": 1656399355780,
+                            "text": "容器管理工具",
+                            "note": "对内与runtime交互，对外为用户提供interface"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co28t3up32w0",
+                                    "created": 1667436218408,
+                                    "text": "lxd"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co28t4j45mw0",
+                                    "created": 1667436219885,
+                                    "text": "docker engine"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "co28tgjjau80",
+                                            "created": 1667436246031,
+                                            "text": "deamo"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "co28tki1lko0",
+                                            "created": 1667436254648,
+                                            "text": "cli"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "co28t4xa5pc0",
+                                    "created": 1667436220741,
+                                    "text": "rkl cli"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cl1kkfjp6rs0",
+                            "created": 1656399356629,
+                            "text": "容器定义工具",
+                            "note": "用户可以定义自己容器的属性和内容"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co295brh40w0",
+                                    "created": 1667437175997,
+                                    "text": "docker image",
+                                    "note": "容器的模版"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co295ccsp6g0",
+                                    "created": 1667437177287,
+                                    "text": "dockerfile",
+                                    "note": "包含若干命令的文件，可通过此文件创建出容器"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co295jg1wuw0",
+                                    "created": 1667437192722,
+                                    "text": "ACI ( App Container Image)",
+                                    "note": "与 docker image 类似"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cl1kkfvj24g0",
+                            "created": 1656399357344,
+                            "text": "Registries",
+                            "note": "存放image的仓库"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co297semkgw0",
+                                    "created": 1667437368954,
+                                    "text": "Docker Registry",
+                                    "note": "私有"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co297t268zk0",
+                                    "created": 1667437370378,
+                                    "text": "Docker Hub",
+                                    "note": "公共托管"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co297tewfrk0",
+                                    "created": 1667437371148,
+                                    "text": "Quay.io",
+                                    "note": "公共托管"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cl1kkgc72lc0",
+                            "created": 1656399358352,
+                            "text": "容器 OS",
+                            "note": "专门运行容器的操作系统"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co2fftnow140",
+                                    "created": 1667454925252,
+                                    "text": "coreos"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2ffuxswyo0",
+                                    "created": 1667454928040,
+                                    "text": "atomic"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2fvfv05q00",
+                                    "created": 1667456149046,
+                                    "text": "ubuntu core"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cl1fkx675kg0",
+                    "created": 1656385289445,
+                    "text": "容器平台技术",
+                    "note": "能让容器作为集群在分布式环境中运行",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "co2fycagn1s0",
+                            "created": 1667456376366,
+                            "text": "容器编排引擎",
+                            "expandState": "expand",
+                            "note": "1、容器管理\n2、调度\n3、集群定义\n4、服务发现"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co2o65m3gv40",
+                                    "created": 1667479557624,
+                                    "text": "docker swarm"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2o6c65eds0",
+                                    "created": 1667479571898,
+                                    "text": "kubernetes"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2o6jy15s00",
+                                    "created": 1667479588821,
+                                    "text": "mesos+marathon"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "co2fyd9emjc0",
+                            "created": 1667456378479,
+                            "text": "容器管理平台",
+                            "note": "架设在容器编排引擎之上的一个更为通用的平台"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co2o7resc7k0",
+                                    "created": 1667479683436,
+                                    "text": "Rancher"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2o7rm9i000",
+                                    "created": 1667479683888,
+                                    "text": "ContainerShip"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "co2fydjwe400",
+                            "created": 1667456379113,
+                            "text": "基于容器的Paas"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co2o9gzhhm00",
+                                    "created": 1667479817471,
+                                    "text": "Deis"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2o9hzzw8g0",
+                                    "created": 1667479819679,
+                                    "text": "Flynn"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2o9iaxiq80",
+                                    "created": 1667479820340,
+                                    "text": "Dokku"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cl1fl6x0jmw0",
+                    "created": 1656385310658,
+                    "text": "容器支持技术",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "co2oaoc555k0",
+                            "created": 1667479911838,
+                            "text": "容器网络",
+                            "note": "容器间的网络拓扑",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co2obr5lhc00",
+                                    "created": 1667479996337,
+                                    "text": "docker network"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2obrxy7qg0",
+                                    "created": 1667479998051,
+                                    "text": "flannel"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2obs6siq80",
+                                    "created": 1667479998586,
+                                    "text": "weave"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2obsszu3k0",
+                                    "created": 1667479999928,
+                                    "text": "calico"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "co2oaqjt17k0",
+                            "created": 1667479916655,
+                            "text": "服务发现",
+                            "note": "微服务会动态的增加或减少容器(根据负载和host资源的情况)，让client能够知道容器提供的服务就是技术发现要完成的工作",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co2odukw61s0",
+                                    "created": 1667480160520,
+                                    "text": "etcd"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2oduwylv40",
+                                    "created": 1667480161250,
+                                    "text": "consul"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2odv8wvsw0",
+                                    "created": 1667480161973,
+                                    "text": "zookeeper"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "co2oardhi940",
+                            "created": 1667479918450,
+                            "text": "监控",
+                            "note": "监控容器的状况",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co2oh7k3te80",
+                                    "created": 1667480423863,
+                                    "text": "docker ps/top/stats"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2ohq61ekw0",
+                                    "created": 1667480464372,
+                                    "text": "docker stats API"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2ohuj4vts0",
+                                    "created": 1667480473871,
+                                    "text": "sysdig"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2ohxahkx40",
+                                    "created": 1667480479878,
+                                    "text": "cAdvisor/Heapster"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "co2oi5lbc200",
+                                    "created": 1667480497947,
+                                    "text": "Weave Scope"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "co2oasvnug00",
+                            "created": 1667479921725,
+                            "text": "数据管理",
+                            "note": "保障数据在容器间的动态迁移\t"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co2oj8g4jyo0",
+                                    "created": 1667480582528,
+                                    "text": "REX-Ray"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "co2oat9bk340",
+                            "created": 1667479922551,
+                            "text": "安全性"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "co2ojgxpa8w0",
+                                    "created": 1667480601005,
+                                    "text": "OpenSCAP",
+                                    "note": "可以进行漏洞扫描，发现潜在漏洞\n"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
