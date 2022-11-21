@@ -1,0 +1,150 @@
+{
+    "root": {
+        "data": {
+            "id": "cnzqfsse9bc0",
+            "created": 1667181275699,
+            "text": "程序语言类型"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cnzqfzqkenc0",
+                    "created": 1667181290825,
+                    "text": "编译型"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cnzqj9tuzz40",
+                            "created": 1667181547885,
+                            "text": "原理"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnzqjre5pxk0",
+                                    "created": 1667181586118,
+                                    "text": "通过编译器将程序源码转换成特定平台可执行的机器码"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cnzqja6uc8o0",
+                            "created": 1667181548670,
+                            "text": "优点"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnzqjrupuy80",
+                                    "created": 1667181587119,
+                                    "text": "一次编译，多次运行，效率高"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cnzqjb16fi00",
+                            "created": 1667181550504,
+                            "text": "缺点"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnzqjs7xwp40",
+                                    "created": 1667181587918,
+                                    "text": "可移植性差，不够灵活"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cnzqo7t70400",
+                            "created": 1667181935312,
+                            "text": "代表语言：C/C++、Java"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cnzqg0ea9i80",
+                    "created": 1667181292260,
+                    "text": "解释型"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cnzqjber3s00",
+                            "created": 1667181551325,
+                            "text": "原理"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnzqjsnrvwo0",
+                                    "created": 1667181588876,
+                                    "text": "由专门的解释器，根据需要将部分程序源码临时转换成特定平台的可执行源码"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cnzqjg82dl40",
+                            "created": 1667181561805,
+                            "text": "优点"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnzqjsx68oo0",
+                                    "created": 1667181589444,
+                                    "text": "跨平台性好，通过不同的解释器转换成不同平台下的可执行的机器码"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cnzqjgn1cyo0",
+                            "created": 1667181562710,
+                            "text": "缺点"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cnzqjtb9au80",
+                                    "created": 1667181590296,
+                                    "text": "一边转化一边执行，效率低"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cnzqo7btmt40",
+                            "created": 1667181934261,
+                            "text": "代表语言：C#、Python、Javascript、PHP"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-red",
+    "version": "1.4.43"
+}

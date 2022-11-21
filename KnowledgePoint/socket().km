@@ -1,0 +1,229 @@
+{
+    "root": {
+        "data": {
+            "id": "cns2w49j7og0",
+            "created": 1666403928172,
+            "text": "socket (socket_family, socket_type, protocol=0 )"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cns2x6yvmjs0",
+                    "created": 1666404012422,
+                    "text": "socket_family"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cns2ycby6ow0",
+                            "created": 1666404102460,
+                            "text": "based on file"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cns2z7wx1o00",
+                                    "created": 1666404171208,
+                                    "text": "AF_Unix (AF_Local)"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cns2ycmmjj40",
+                            "created": 1666404103106,
+                            "text": "based on network"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cns2zlbvvkw0",
+                                    "created": 1666404200412,
+                                    "text": "AF_INET"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cns2zxrr0tc0",
+                                            "created": 1666404227492,
+                                            "text": "IPV4"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cns2zln54cw0",
+                                    "created": 1666404201092,
+                                    "text": "AF_INET6"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cns2zy3cruw0",
+                                            "created": 1666404228194,
+                                            "text": "IPV6"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cns2zlztkrk0",
+                                    "created": 1666404201859,
+                                    "text": "AF_INETLINK"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cns2x7c3n200",
+                    "created": 1666404013221,
+                    "text": "socket_type"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cns31hxfdfc0",
+                            "created": 1666404349735,
+                            "text": "SOCK_STREAM ( Stream socket->1 )"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cns31i9d3z40",
+                            "created": 1666404350457,
+                            "text": "SOCK_DGRAM ( Datagram socket->2 )"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cns31ijoc6w0",
+                            "created": 1666404351081,
+                            "text": "SOCK_RAW ( Raw socket interface->3 )"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cns31itbx080",
+                            "created": 1666404351664,
+                            "text": "SOCK_RDM ( Reliably delivered message->4) "
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cns31j36ui80",
+                            "created": 1666404352261,
+                            "text": "SOCK_SEQPACKET ( Sequenced packet stream->5 )"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cns2x7n39og0",
+                    "created": 1666404013886,
+                    "text": "protocol"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cns3biwukew0",
+                            "created": 1666405135519,
+                            "text": "IPPROTO_IP( IP->0 )"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cns3bj9d7q00",
+                            "created": 1666405136276,
+                            "text": "IPPROTO_ICMP ( ICMP->1)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cns3bk2rfog0",
+                            "created": 1666405138053,
+                            "text": "IPPROTO_IGMP ( IGMP->2 )"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cns3bkdbyoo0",
+                            "created": 1666405138692,
+                            "text": "IPPROTO_GGP ( Gateway->3 )"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cns3bl8bn280",
+                            "created": 1666405140566,
+                            "text": "IPPROTO_TCP ( TCP->6 )"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cns3blir72o0",
+                            "created": 1666405141197,
+                            "text": "IPPROTO_PUP ( PUP->12 )"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cns3blumcxs0",
+                            "created": 1666405141914,
+                            "text": "IPPROTO_UDP (UDP->17 )"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cns3bmk264o0",
+                            "created": 1666405143453,
+                            "text": "IPPROTO_IDP ( XND IDP->22 )"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cns3bmwap5k0",
+                            "created": 1666405144192,
+                            "text": "IPPROTO_ND ( Net Disk->77 ))"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cns3bnj6zf40",
+                            "created": 1666405145577,
+                            "text": "IPPROTO_RAW (Raw IP->255 )"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}

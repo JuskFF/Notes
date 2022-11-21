@@ -1,0 +1,99 @@
+{
+    "root": {
+        "data": {
+            "id": "cobveufxz9k0",
+            "created": 1668414025965,
+            "text": "程序的内存分配"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cobvf20buxk0",
+                    "created": 1668414042435,
+                    "text": "栈(stack)"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cobvimfho9s0",
+                            "created": 1668414321980,
+                            "text": "存放函数的参数值，局部变量的值，由编译器分配与释放"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cobvf3vkfdc0",
+                    "created": 1668414046500,
+                    "text": "堆(heap)"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cobvovi2ogo0",
+                            "created": 1668414811912,
+                            "text": "由程序员手动分配，要手动释放"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cobvf4eceu00",
+                    "created": 1668414047636,
+                    "text": "全局区(静态区)"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cobvpvpj1w80",
+                            "created": 1668414890727,
+                            "text": "全局变量和静态变量是存放在同一片区域，初始化的全局变量(静态变量)放在一片区域，未初始化的全局变量(静态变量)存放在相邻的区域，由程序自动释放"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cobvf5jami00",
+                    "created": 1668414050112,
+                    "text": "文字常量区"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cobvhe71u5c0",
+                            "created": 1668414225691,
+                            "text": "字符常量的存放区域"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cobvf5wnohs0",
+                    "created": 1668414050920,
+                    "text": "程序代码区"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cobvgtxybnc0",
+                            "created": 1668414181605,
+                            "text": "存放函数体的二进制代码"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
