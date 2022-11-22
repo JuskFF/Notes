@@ -1,0 +1,220 @@
+{
+    "root": {
+        "data": {
+            "id": "clikmw78m680",
+            "created": 1658126068873,
+            "text": "路由器硬件组成"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "clikntiez1k0",
+                    "created": 1658126141382,
+                    "text": "ROM"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "clikpk5bzx40",
+                            "created": 1658126277728,
+                            "text": "只读存储器"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "clikrkp65ds0",
+                            "created": 1658126435656,
+                            "text": "具体作用"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clikrx188b40",
+                                    "created": 1658126462507,
+                                    "text": "系统加电自检代码（POST），用于检测路由器中各硬件部分是否完好"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "clikrxseils0",
+                                    "created": 1658126464150,
+                                    "text": "系统引导区代码（BootStrap），用于启动路由器并载入IOS操作系统"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "clikry4052o0",
+                                    "created": 1658126464851,
+                                    "text": "备份的IOS操作系统，以便在原有IOS操作系统被删除或破坏时使用"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cliknv4gf2o0",
+                    "created": 1658126144892,
+                    "text": "RAM"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "clikpp0etrc0",
+                            "created": 1658126288315,
+                            "text": "随机存储器，设备工作的内存"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cliknwae2tk0",
+                    "created": 1658126147427,
+                    "text": "Flash"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "clikpvn1emw0",
+                            "created": 1658126302744,
+                            "text": "静态存储器，存放系统IOS镜像"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cliko3r8imw0",
+                    "created": 1658126163683,
+                    "text": "NVRAM"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cliko81bkkg0",
+                            "created": 1658126173000,
+                            "text": "简介：专门存放配置文件"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cliko8v2nj40",
+                            "created": 1658126174799,
+                            "text": "配置寄存器：16bit的开关，控制系统的启动顺序"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "clikpeq4f5c0",
+                    "created": 1658126265925,
+                    "text": "Interface"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "clikqh3zy3c0",
+                            "created": 1658126349482,
+                            "text": "类似PC的网卡"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "clikphghq1k0",
+                    "created": 1658126271873,
+                    "text": "CPU "
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "climk9wtx880",
+                    "created": 1658131505846,
+                    "text": "启动顺序"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "climkeyh2oo0",
+                            "created": 1658131516829,
+                            "text": "系统加电自检(ROM)",
+                            "priority": 1
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "climkfa0k3s0",
+                            "created": 1658131517527,
+                            "text": "加载和运行系统引导区代码(ROM)",
+                            "priority": 2
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "climkftzdv40",
+                            "created": 1658131518734,
+                            "text": "寻找IOS软件(Flash)",
+                            "priority": 3
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "climkgngeoo0",
+                            "created": 1658131520516,
+                            "text": "加载IOS软件(RAM)",
+                            "priority": 4
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "climkh3i7zk0",
+                            "created": 1658131521487,
+                            "text": "寻找配置文件(NVRAM)",
+                            "priority": 5
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "climkhwlzps0",
+                            "created": 1658131523246,
+                            "text": "加载配置文件(RAM)",
+                            "priority": 6
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "climki866m00",
+                            "created": 1658131523946,
+                            "text": "运行配置好的IOS软件(RAM)",
+                            "priority": 7
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-red",
+    "version": "1.4.43"
+}
