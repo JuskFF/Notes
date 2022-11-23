@@ -1,0 +1,193 @@
+{
+    "root": {
+        "data": {
+            "id": "coboz5krfao0",
+            "created": 1668395869714,
+            "text": "C#数据类型"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cobozeak3hs0",
+                    "created": 1668395888688,
+                    "text": "值类型"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "coc2giie46w0",
+                            "created": 1668433904489,
+                            "text": "topic",
+                            "note": "描述：\n范围：\n默认值："
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coc2f236k7s0",
+                            "created": 1668433790376,
+                            "text": "bool",
+                            "note": "描述：布尔值\n范围：True或False\n默认值：False"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coc2gevrjs80",
+                            "created": 1668433896590,
+                            "text": "byte",
+                            "note": "描述：8位无符号整数\n范围：0～255\n默认值：0"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coc2f2iezvc0",
+                            "created": 1668433791298,
+                            "text": "char",
+                            "note": "描述：16位Unicode字符\n范围：U+0000～U+ffff\n默认值：'\\0'"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coc2f32gdug0",
+                            "created": 1668433792509,
+                            "text": "decimal",
+                            "note": "描述：128 位精确的十进制值，28-29 有效位数\n范围：(-7.9 x 10^28 到 7.9 x 10^28) / 10^0 到 ^28\n默认值：0.0M"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coc2f3duijc0",
+                            "created": 1668433793198,
+                            "text": "double",
+                            "note": "描述：64位双精度浮点型\n范围：+/-)5.0 x 10^-324 到 (+/-)1.7 x 10^308\n默认值：0.0D"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coc2f3nqr8w0",
+                            "created": 1668433793797,
+                            "text": "float",
+                            "note": "描述：32位单精度浮点型\n范围：-3.4*10^38~3.4*10^38\n默认值：0.0F"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coc2f3y63lc0",
+                            "created": 1668433794427,
+                            "text": "int",
+                            "note": "描述：32位有符号整型\n范围：-2^31~(2^31-1)\n默认值：0"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coc2f482jso0",
+                            "created": 1668433795027,
+                            "text": "long",
+                            "note": "描述：64位有符号整型\n范围：-2^63~(2^63-1)\n默认值：0"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coc2kf6yugg0",
+                            "created": 1668434210724,
+                            "text": "sbyte",
+                            "note": "描述：8位有符号整数类型\n范围：-128～127\n默认值：0"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coc2kikf7ug0",
+                            "created": 1668434218068,
+                            "text": "short",
+                            "note": "描述：16位有符号整型\n范围：-32768～32767\n默认值：0"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coc2kkd5ra00",
+                            "created": 1668434221983,
+                            "text": "uint",
+                            "note": "描述：32位无符号整数\n范围：0～(2^32-1)\n默认值：0"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coc2kmzenmo0",
+                            "created": 1668434227681,
+                            "text": "ulong",
+                            "note": "描述：64位无符号整数\n范围：0～(2^64 - 1)\n默认值：0"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coc2kpd8lqo0",
+                            "created": 1668434232871,
+                            "text": "ushort",
+                            "note": "描述：16位无符号整数\n范围：0～65535\n默认值：0"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cobozen6bzs0",
+                    "created": 1668395889451,
+                    "text": "引用类型",
+                    "note": "简介：是对变量的引用，是一个内存地址，这个内存对应的指就是引用变量的真身。\n内置的引用类型：\n对象类型、动态类型、字符串类型\n\n"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "coith3iztds0",
+                            "created": 1669119479945,
+                            "text": "对象类型"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coith3td8gw0",
+                            "created": 1669119480572,
+                            "text": "动态类型"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "coith44z56w0",
+                            "created": 1669119481274,
+                            "text": "字符串类型",
+                            "note": "简介：是Object类型的派生。\n\n字符串前面加@：\nString str = @\"C:\\Windows\\\" 与\nString str = \"C:\\\\Windows\\\\\"等价。\n"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cobozeyxj340",
+                    "created": 1668395890162,
+                    "text": "指针类型",
+                    "note": "指针类型的变量存储另一种类型的内存地址，与C/C++指针有相同的功能。"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-red",
+    "version": "1.4.43"
+}
