@@ -33,7 +33,7 @@ C# 中的权限修饰符主要包括`public`、`protected internal`、`internal`
 - 接口的默认修饰符是 **`internal`**
 - 接口成员的默认修饰符是 **`public`**
 - 命名空间、枚举类型的成员的默认修饰符是 **`public`**
-- 委托的默认修饰符是 **internal**
+- 委托的默认修饰符是 **`internal`**
 - 在命名空间内部或编译单元顶部的所有类型，默认修饰符 **`internal`**
 
 
