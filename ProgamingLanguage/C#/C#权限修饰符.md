@@ -17,7 +17,7 @@ C# 中的权限修饰符主要包括`public`、`protected internal`、`internal`
 - 访问范围：同一程序集中访问
 - 应用范围：类和内嵌类的所有成员
 
-## proctected
+## protected
 
 - 访问范围：在本类和其子类中访问
 - 应用范围：类和内嵌类的所有成员
