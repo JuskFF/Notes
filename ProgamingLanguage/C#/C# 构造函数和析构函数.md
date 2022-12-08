@@ -65,7 +65,7 @@ using system;
 namespace app1;
 internal class Program
 {
-    static void main(string[] args)
+    static void Main(string[] args)
         {
             Console.WriteLine(Enemy.text);
             Console.WriteLine(Tank.text);
@@ -121,7 +121,7 @@ using system;
 namespace app1;
 internal class Program
 {
-    static void main(string[] args)
+    static void Main(string[] args)
         {
             Enemy enemy = new enemy();
             Tank tank = new Tank();

@@ -40,7 +40,7 @@ namespace Application
 
             set { hp = value; }
         }
-        static void main(string [] args)
+        static void Main(string [] args)
         {
             Program p = new Program();
             p.Hp = 100;
@@ -66,7 +66,7 @@ namespace Application
             get;
             set;
         }
-        static void main(string [] args)
+        static void Main(string [] args)
         {
             Program p = new Program();
             p.Hp = 100;
