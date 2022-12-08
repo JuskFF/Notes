@@ -32,7 +32,8 @@
 namespace Application
 {
     internal class Program
-    {   private int hp;
+    {   
+        private int hp;
         public int Hp
         {
             get { return hp; }
